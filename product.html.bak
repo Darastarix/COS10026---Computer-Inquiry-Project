@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="Computer-enquiry-project" content="Internet access plan"/>
+	<meta name="keywords" content="HTML, CSS, PHP"/>
+	<meta name="author" content="Jay Stephan"/>
+	<title>Swinet</title>
+</head>
+
+<body>
+	<h1>Products</h1>
+	<h2>Internet Access Plans to suit every need</h2>
+	<img src="internet.jpg">
+	<hr>
+	<ol>
+		<li id=basic><h3>Basic Plan</h3></li>
+		<ul>
+			<li>25mb/s typical speed</li>
+			<li><em>month to month payment</em></li>
+			<li>$80 per month</li>
+		</ul>
+			<aside>Suitable for single devices and at home work. Maximum of 3 devices may be connected at any given time</aside>
+		<li id=essential><h3>Essential Plan</h3></li>
+		<ul>
+			<li>50mb/s typical speed</li>
+			<li><em>month to month payment</em></li>
+			<li>$95 per month</li>
+		</ul>
+		<li id=premium><h3>Premium Plan</h3></li>
+		<ul>
+			<li>100mb/s typical speed</li>
+			<li><em>month to month payment</em></li>
+			<li>$110 per month</li>
+		</ul>
+		<li id=ultimate><h3>Ultimate Plan</h3></li>
+		<ul>
+			<li>250mb/s typical speeds</li>
+			<li><em>month to month payment</em></li>
+			<li>$140 per month</li>
+		</ul>
+	</ol>
+</body>
