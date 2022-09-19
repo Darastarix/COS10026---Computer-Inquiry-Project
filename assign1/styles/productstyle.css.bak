@@ -379,7 +379,7 @@ background-image: url("images/App.jpg");
 	width: 450px;
 }
 
-.section_4c .left_side button{
+.section_4a .left_side button{
 	font-size: 18px;
 	text-align: left;
 	margin-left: 50px;
