@@ -114,22 +114,12 @@ Write details of enquiry here.....
 
 </form>
 </body>
-
-
-	<!--footer-->
-<footer>
-	
-<?php
-include_once ("Footer.inc");
-?>
-	
-</footer>
  
-<!--<footer class="foot">
+<footer class="foot">
 <h2>Contact Us:</h2>
 <p> Our contact number:0466786564 </p>
 <p>Our email: swin-fi370@gmail.com</p>
 <p>HQ Address: 746 swanston street VIC 3172</p>
 <p> ©copyright 2022 swin-fi ltd</p>
 </footer>
-</html>!-->
+</html>

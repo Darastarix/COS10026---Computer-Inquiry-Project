@@ -139,14 +139,5 @@ include_once ("Menu.inc");
                     </tr>
                 </table>
             </section>
-			
-	<!--footer-->
-<footer>
-	
-<?php
-include_once ("Footer.inc");
-?>
-	
-</footer>
     </body>
     </html>
