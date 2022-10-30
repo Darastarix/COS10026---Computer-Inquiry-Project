@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+	<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Assignment" />
+<meta name="keywords"  content="HTML , CSS" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" type="text/css" href="styles/style N.css">
+	<title>Swin-FI</title>
+</head>
+<body>
+	<!--header and nav-->
+
+<?php
+include_once ("Header.inc");
+?>
+<?php
+include_once ("Menu.inc");
+?>
+<!--section1-->
+
+<div class="sectionee_2">
+	<div class="bg_img"><div class="textonimg">
+		<p>Connect to The World</p>
+		<h1>Switch to Swin-fi today</h1>
+	</div></div>
+
+</div>
+<!--section 2-->
+<div class="sectione2" id="enhan">
+	<h1>How are we different?</h1>
+	
+	<table>
+		<tr><td><span id="sym">&#9774;</span>
+         <h3>The Biggest</h3>
+         <p>Swin-FI is the largest satellite constellation using a low Earth orbit to deliver broadband internet capable of streaming, onnline gaming, video calls and much more.</p>			
+		</td> <td><span id="sym1">&#10051;</span>
+         <h3>Most Advanced</h3>
+         <p>Using the most advanced satellites and hardware, Swin-Fi delivers high-speed, low-latency internet to users all over the world.</p>			
+		</td>  </tr>	
+		
+		
+		<tr>
+	
+			<td><span id="sym3">&#9884;</span>
+         <h3>Reliable partner</h3>
+         <p>We’ve had our share of successes and failures, but we’ve got true grit and have never given up. We’ve raised funds from a famous VC accelerator, bank and even Business Schools. We value our reputation,with that in mind, we don’t pursue short-term profits and all our customers come back for more.</p>			
+		</td>  </tr>
+		
+		
+		<tr>
+	<td style="opacity:0;"></td> <td>
+		<h2>Thinking to Buy ?</h2>
+		<a href="#con" class="contact_us">Contact Us</a></td></tr>
+	</table>
+</div>
+
+
+
+<!--section 3-->
+<!----https://hatchet.com.au/ this site here i wanted to make extensive use of opacity and hover also the gifs were taken from here-->
+<div class="sectione3">
+	<div class="imglao">
+<table><tr>
+	<td>
+	<div class="wrapper" id="enhan1">
+  <div class="icon "><span id="flip">&#9812;</span>
+    <div class="tooltip">
+     <h1>01.PERFORMANCE</h1>
+    <p>It drives all the solutions we build. We utilise the latest technology in our work stack to ensure you’re getting a product that delivers top-tier performance. Not just in terms of speed but functionality, design and application.</p><img src="images/e2.svg" alt="at scale">
+    </div>
+    	
+  </div></div></td>
+  <td>
+  <div class="wrapper">
+  <div class="icon "><span id="flip1">&#9813;</span>
+    <div class="tooltip">
+		<h1>02.MAXIMUM EFFICIENCY</h1>
+<p>An efficient business is an effective one. That’s one of our core agency pillars and the way we build our solutions.</p>
+<img src="images/e1.svg" alt="at scale">
+</div>
+    	
+  </div></div></td>
+  <td>
+  <div class="wrapper">
+  <div class="icon "><span id="flip2">&#9816;</span>
+    <div class="tooltip"><h1>03.
+AT SCALE</h1><p>We've worked with all sizes of businesses throughout the world, from small single owner/operators through to ASX listed companies.
+
+We’re an agency that’s built a reputation of delivering top-tier performance at all levels.</p><img src="images/e1.svg" alt="at scale">	</div>
+    
+  </div></div>
+</td>
+
+	</tr></table>
+</div>
+</div>
+<!--section 4-->
+<div class="sectione4" id="con">
+	<div class="sec4_img">
+	<div class="right_side">
+		<form method="post" action="#" >
+			<label for="email">Enter Email Address</label><br>
+			<input type="email" name="email" id="email">
+			<label for="name">Full Name</label><br>
+			<input type="text" name="name" id="name" ><br>
+			<label for="company">Company(if any)</label><br>
+			<input type="text" name="company" id="company" ><br>
+			<label for="help">How can we help you?</label><br>
+			<input type="text" name="help" id="help"  ><br>
+			<input type="submit" name="Send">
+		</form></div>
+
+	
+	</div>
+
+</div>
+
+	<!--footer-->
+	<!--footer-->
+<footer>
+	
+<?php
+include_once ("Footer.inc");
+?>
+	
+</footer>
+
+</body>
+</html>

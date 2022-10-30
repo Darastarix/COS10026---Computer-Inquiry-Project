@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body,footer{
+    background-color: #aad51bb4; /*NIHAL CHANGE COLOR HERE*/
+}
+.mega-intro{
+    padding:0;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+.small-intro{
+    padding:0;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+.about-main{
+    padding: 50px;
+}
+.img-wrapper{
+    padding: 20px;
+}
+.info-wrapper1{
+    padding: 50px;
+    background: #c4bf1f;/*NIHAL CHANGE COLOR HERE*/
+    display: flex;
+    justify-content:space-around;
+}
+.info-wrapper2{
+    padding: 50px;
+    background: #85af25; /*NIHAL CHANGE COLOR HERE*/
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 20px;
+}
+.info-wrapper3{
+    padding: 50px;
+    background: #a3c90c;
+    display: flex;
+    justify-content:space-around;
+}
+.info-wrapper1 dl{
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: 50px;
+}
+.info-wrapper2 dl{
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: 50px;
+}
+.info-wrapper3 dl{
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: 50px;
+}
+.ceo-wrapper{
+    background-color: #30d713; /*NIHAL CHANGE COLOR HERE*/
+    transition: background-color .7s;
+    padding: 50px;
+}
+/* Styling Time Table*/
+.timetable{
+    padding: 50px;
+    width: 100%;
+}
+table{
+    border: 2px solid black;
+    width: 100%;
+}
+tr,td{
+    border: 2px solid black;
+    padding: 20px;
+}
+tr{
+    background: #57e787;
+}
+tr:hover{
+    background-color: #e4125b; /*NIHAL CHANGE COLOR HERE*/
+    transition: background-color .5s;
+}
+td:hover{
+    background-color: #dde8df; /*NIHAL CHANGE COLOR HERE*/
+    transition: background-color .5s;
+}
+.selfp{
+      float: right;
+}
